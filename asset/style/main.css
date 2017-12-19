@@ -5302,11 +5302,11 @@ body {
 }
 
 ::-moz-selection {
-    background: #FAF076
+    background: #21C36D
 }
 
 ::selection {
-    background: #FAF076
+    background: #21C36D
 }
 
 .logo {
@@ -5496,7 +5496,7 @@ mark::after {
     position: absolute;
     height: 30%;
     width: 104%;
-    background-color: #FAF076;
+    background-color: #21C36D;
     bottom: 5px;
     left: -2%;
     z-index: -1
@@ -5536,8 +5536,8 @@ h1 mark::after {
         content: none
     }
     .v-headline mark {
-        background: -webkit-linear-gradient(#FAF076, #FAF076);
-        background: linear-gradient(#FAF076, #FAF076);
+        background: -webkit-linear-gradient(#21C36D, #21C36D);
+        background: linear-gradient(#21C36D, #21C36D);
         background-size: 16px 100%;
         background-repeat: no-repeat;
         padding: 5px 0
@@ -5586,7 +5586,7 @@ h1 mark::after {
 .button {
     height: 81px;
     box-sizing: border-box;
-    border: 5px solid #FAF076;
+    border: 5px solid #21C36D;
     text-transform: uppercase;
     color: #222;
     padding: 0 50px;
@@ -5620,7 +5620,7 @@ h1 mark::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #FAF076;
+    background-color: #21C36D;
     z-index: -1;
     -webkit-animation-name: button-out;
     animation-name: button-out;
@@ -5631,7 +5631,7 @@ h1 mark::after {
 }
 
 .button--inverted {
-    color: #FAF076
+    color: #21C36D;
 }
 
 @-webkit-keyframes button-in {
@@ -5921,7 +5921,7 @@ h1 mark::after {
 }
 
 .section--dark .button {
-    color: #FAF076
+    color: #21C36D
 }
 
 .section--text-center {
@@ -7467,7 +7467,7 @@ footer a:not(:last-of-type) {
     left: -75px;
     width: 30px;
     height: 30px;
-    background-color: #FAF076;
+    background-color: #21C36D;
     border-radius: 100%;
     box-sizing: content-box;
     border: solid white 10px;
@@ -7685,7 +7685,7 @@ footer a:not(:last-of-type) {
 }
 
 .navigation-contact .project-index-list a.active {
-    color: #FAF076
+    color: #21C36D
 }
 
 .project-index-list a span {
