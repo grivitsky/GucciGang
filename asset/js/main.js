@@ -6737,7 +6737,7 @@ $(function () {
         a = {
             init: function () {
                 var t = $(".js-about-skill");
-                t.length && $(window).on("scroll.aboutSkill", function () {
+                t.length && $(window).on("scroll.aboutSkill", function () { 
                     $(this).scrollTop() >= t.offset().top - .75 * $(window).height() && ($(".about-skill").find("*").animate({
                         strokeDashoffset: 0
                     }, 4e3), a.destroy())
