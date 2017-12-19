@@ -6726,7 +6726,7 @@ $(function () {
                     loop: !1,
                     margin: 60,
                     nav: !0,
-                    navText: ['<div class="slider__nav slider__nav--left" ><img src="/img/misc/arrow.png"></div>', '<div class="slider__nav" ><img src="/img/misc/arrow.png"></div>'],
+                    navText: ['<div class="slider__nav slider__nav--left" ><img src="./asset/img/png/arrow.png"></div>', '<div class="slider__nav" ><img src="./asset/img/png/arrow.png"></div>'],
                     items: 1
                 })
             },
