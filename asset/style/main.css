@@ -5970,16 +5970,16 @@ h1 mark::after {
     transform: translateY(-2px)
 }
 
-.social .fa-facebook:hover {
-    color: #3b5998
+.social .fa-vk:hover {
+    color: #4a76a8
 }
 
-.social .fa-instagram:hover {
-    color: #5851db
+.social .fa-google:hover {
+    color: #ea4335
 }
 
-.social .fa-twitter:hover {
-    color: #1da1f2
+.social .fa-skype:hover {
+    color: #1686d9
 }
 
 .social--footer a {
