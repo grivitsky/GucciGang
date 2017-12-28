@@ -7681,7 +7681,7 @@ footer a:not(:last-of-type) {
     top: 50%;
     height: 30px;
     line-height: 30px;
-    content: 'Projekt ansehen';
+    content: 'Посмотреть проект';
     opacity: 0;
     text-transform: uppercase;
     font-size: 13px;
