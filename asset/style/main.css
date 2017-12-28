@@ -5254,30 +5254,6 @@ html {
     width: 100%
 }
 
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url("/fonts/TiemposHeadline-Medium.eot");
-    src: url("/fonts/TiemposHeadline-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/TiemposHeadline-Medium.woff") format("woff"), url("/fonts/TiemposHeadline-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url("/fonts/TiemposHeadline-Light.eot");
-    src: url("/fonts/TiemposHeadline-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/TiemposHeadline-Light.woff") format("woff"), url("/fonts/TiemposHeadline-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url("/fonts/TiemposHeadline-Bold.eot");
-    src: url("/fonts/TiemposHeadline-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/TiemposHeadline-Bold.woff") format("woff"), url("/fonts/TiemposHeadline-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal
-}
-
 body {
     position: relative;
     font-size: 13px;
@@ -5404,7 +5380,8 @@ h5,
 .h3,
 .h4,
 .h5 {
-    font-family: 'Tiempos Headline', serif
+    font-weight: 300 !important;
+    font-family: 'Roboto Slab', serif
 }
 
 input:focus,
@@ -5748,10 +5725,10 @@ h1 mark::after {
     top: 200px;
     left: 50%;
     font-size: 300px;
-    font-family: 'Tiempos Headline', serif;
+    font-family: 'Roboto Slab', serif;
     color: rgba(238, 238, 238, 0.6);
     line-height: 300px;
-    font-weight: bold;
+    font-weight: 400;
     z-index: 0
 }
 
@@ -7057,7 +7034,7 @@ body.navigation-active {
     position: absolute;
     left: 0;
     top: 0;
-    font-family: 'Tiempos Headline';
+    font-family: 'Roboto Slab';
     color: #FFFFFF
 }
 
@@ -7672,8 +7649,8 @@ footer a:not(:last-of-type) {
     display: block;
     color: #fff;
     text-decoration: none;
-    font-family: 'Tiempos Headline', serif;
-    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     padding: 15px 15px 15px 0;
     overflow: hidden
 }
@@ -8080,8 +8057,8 @@ footer a:not(:last-of-type) {
 .projects-additional__content-headline {
     color: #222;
     font-size: 30px;
-    font-weight: bold;
-    font-family: 'Tiempos Headline'
+    font-weight: 400;
+    font-family: 'Roboto Slab'
 }
 
 .projects-additional__link {
@@ -8186,7 +8163,7 @@ footer a:not(:last-of-type) {
 .volksbanken-members__card strong {
     font-size: 29px;
     font-weight: 400;
-    font-family: 'Tiempos Headline', serif;
+    font-family: 'Roboto Slab', serif;
     color: #222
 }
 
@@ -8222,7 +8199,7 @@ footer a:not(:last-of-type) {
 }
 
 .ausbildung-facts strong {
-    font-family: 'Tiempos Headline', serif;
+    font-family: 'Roboto Slab', serif;
     display: block;
     font-size: 50px;
     color: #222
