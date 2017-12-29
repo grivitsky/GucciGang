@@ -5371,7 +5371,6 @@ a:focus {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -5381,6 +5380,12 @@ h5,
 .h4,
 .h5 {
     font-weight: 300 !important;
+    font-family: 'Roboto Slab', serif
+}
+
+h2
+{
+    font-weight: bold !important;
     font-family: 'Roboto Slab', serif
 }
 
@@ -5484,6 +5489,7 @@ h1 mark::after {
 }
 
 .v-headline {
+    font-weight: 300 !important;
     font-size: 30px;
     margin: 0;
     z-index: 4;
