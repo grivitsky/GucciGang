@@ -6836,7 +6836,7 @@ $(function () {
         },
         c = {
             init: function () {
-                console.log("%c%s", 'color: #222222; font-size: 24px; font-family: "Fira Mono", monospace;', "Like to code?"), console.log("%c%s", "color: #222222; font-size: 15px;", "\nhttps://pooliestudios.com/karriere/\n\n"), this.image("https://pooliestudios.com/img/misc/logo.png", 1)
+               
             },
             getBox: function (t, e) {
                 return {
@@ -6855,14 +6855,7 @@ $(function () {
         },
         d = {
             init: function () {
-                var t = document.getElementById("js-typeform");
-                t && $.getScript("https://embed.typeform.com/embed.js", function () {
-                    window.typeformEmbed.makeWidget(t, "https://pooliestudios.typeform.com/to/nGkfab", {
-                        hideFooter: !0,
-                        hideHeaders: !0,
-                        opacity: 0
-                    })
-                })
+                
             }
         },
         h = {
