@@ -5706,6 +5706,11 @@ h1 mark::after {
     margin-bottom: 20px
 }
 
+.header__headline-typed
+{
+    margin-top:15vh;
+}
+
 .header__headline-typed mark {
     background-size: 200% 100%;
     -webkit-transition: background-position 0.4s;
@@ -5931,6 +5936,16 @@ h1 mark::after {
     text-decoration: none;
     color: #222222;
     background-position: 100% 1px
+}
+
+.social_mtop
+{
+    margin-top:9vh;
+}
+
+.social_mtopm
+{
+    margin-top:-50px;
 }
 
 .social a {
